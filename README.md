@@ -1,5 +1,3 @@
- E-Commerce Website Clone
-
 This is a simple e-commerce website clone created using HTML and CSS.
  Technologies Used
 
