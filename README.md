@@ -1,18 +1,36 @@
-This is a simple e-commerce website clone created using HTML and CSS.
- Technologies Used
+# Portfolio Website Clone
 
- HTML
- CSS
+A portfolio website clone created to practice modern website layouts and UI design.
 
- Features
+## Features
 
-* Navigation bar
-* Product section
-* Product cards
-* Buttons
-* Clean and simple design
+* Modern navigation bar
+* Hero section
+* Portfolio/project sections
+* Responsive layout
+* Styled buttons and cards
+* Clean user interface
 
- Project Purpose
+## Technologies Used
 
-I created this project to practice my HTML and CSS web development skills.
+* HTML5
+* CSS3
+
+## What I Practiced
+
+* Website layout
+* CSS styling
+* Flexbox
+* Responsive design
+* UI design
+* Recreating a website from a reference
+
+## Author
+
+Hafsa Ramzan
+
+## Live Demo
+
+Add your live website link here.
+
 
