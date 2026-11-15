@@ -13,44 +13,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!-- ------  Navbar------------------>
+   <div id="navbar">
+    <div id="logo"> 
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/073/755/891/small_2x/online-shop-logo-with-smartphone-and-shopping-cart-isolated-on-white-background-perfect-for-ecommerce-and-mobile-commerce-businesses-vector.jpg" alt="Logo">
+        <p>
+            <span id="line1">Shop Hub</span>
+            <span id="line2">Whatever you want <i class="fa-regular fa-face-smile-beam"></i></span>
+        </p>
+    </div>
 
-    <!-- Navbar -->
-    <nav id="navbar">
-        <div id="logo">
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/073/755/891/small_2x/online-shop-logo-with-smartphone-and-shopping-cart-isolated-on-white-background-perfect-for-ecommerce-and-mobile-commerce-businesses-vector.jpg" alt="Shop Hub Logo">
-            <div>
-                <span id="line1">Shop Hub</span>
-                <span id="line2">Whatever you want <i class="fa-regular fa-face-smile-beam"></i></span>
-            </div>
-        </div>
+    <div id="placeholder">
+        <select>
+            <option>All</option>
+            <option>Electronics</option>
+            <option>Kitchen</option>
+            <option>Home</option>
+            <option>Beauty</option>
+            <option>Clothing</option>
+            <option>Jewellery</option>
+        </select> 
+        <input type="text" placeholder="Search for product brand and more.....">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
 
-        <div id="search-bar">
-            <select id="category-select">
-                <option value="all">All</option>
-                <option value="electronics">Electronics</option>
-                <option value="fashion">Fashion</option>
-                <option value="footwear">Footwear</option>
-                <option value="beauty">Beauty</option>
-            </select>
-            <input type="text" id="search-input" placeholder="Search for products, brands and more...">
-            <button id="search-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+    <!-- Right Side Items ko aik wrapper mein dal diya -->
+    <div class="nav-right">
+        <div id="signin">
+            <i class="fa-regular fa-user"></i>
+            <p>Sign In <br>Accounts</p>
         </div>
-
-        <div class="nav-actions">
-            <div id="signin" class="nav-item">
-                <i class="fa-regular fa-user"></i>
-                <p>Sign In<br><strong>Account</strong></p>
-            </div>
-            <div id="wishlist" class="nav-item">
-                <i class="fa-regular fa-heart"></i>
-                <span>Wishlist (<span id="wish-count">0</span>)</span>
-            </div>
-            <div id="cart" class="nav-item">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span>Cart (<span id="cart-count">0</span>)</span>
-            </div>
+        <div id="wishlist">
+            <i class="fa-regular fa-heart"></i>
+            Wishlist
         </div>
-    </nav>
+        <div id="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+    </div>
+</div>
 
     <!-- Sub Header -->
     <div id="header">
